@@ -1,0 +1,96 @@
+/* resumePreview/2.css */
+body {
+  background: linear-gradient(to bottom, #88ccf9, #b6e4ff, #d9f3ff, #f1fbff);
+  font-family: 'Nanum Gothic', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#pdf-download {
+  max-width: 950px;
+  margin: 0 auto;
+  background: white;
+  padding: 50px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-template-2 {
+  color: #000040;
+  width: 845px;
+  min-height: 1232px;
+}
+
+.resume-template-2 .resume-name {
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: #002f87;
+  margin-bottom: 10px;
+}
+
+.resume-template-2 .resume-name-en {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.resume-template-2 .resume-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  float: right;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 2px solid #002f87;
+}
+
+.resume-template-2 .resume-section {
+  margin-top: 40px;
+}
+
+.resume-template-2 .resume-section-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #002f87;
+  border-bottom: 2px solid #002f87;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+}
+
+.resume-template-2 .resume-text-line {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.resume-template-2 .resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+.resume-template-2 .resume-table th {
+  background: #002f87;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.resume-template-2 .resume-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.resume-template-2 .resume-skill-bar {
+  height: 6px;
+  background-color: #002f87;
+  margin: 3px 0;
+  border-radius: 3px;
+}
+
+.resume-template-2 .resume-skill-label {
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  display: block;
+}

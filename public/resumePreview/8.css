@@ -1,0 +1,99 @@
+.resume-template-8 {
+  display: flex;
+  width: 950px;
+  min-height: 1334px;
+  margin: 0 auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+/* 왼쪽 사이드바 */
+.resume-template-8 .resume-left {
+  width: 30%;
+  background-color: #2d65a1;
+  color: #ffffff;
+  padding: 40px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.resume-template-8 .resume-photo {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 16px;
+}
+
+.resume-template-8 .resume-name {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.resume-template-8 .resume-name-en {
+  font-size: 14px;
+  color: #cdddf3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume-template-8 .resume-section-title {
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid #5f91ce;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+  width: 100%;
+  text-align: left;
+  color: #ffffff;
+}
+
+.resume-template-8 .resume-text-line {
+  font-size: 13px;
+  color: #e0eaf7;
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+
+/* 우측 본문 */
+.resume-template-8 .resume-right {
+  width: 70%;
+  padding: 40px 35px;
+  background-color: #ffffff;
+}
+
+.resume-template-8 .resume-right .resume-section-title {
+  color: #2d65a1;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid #2d65a1;
+  padding-bottom: 6px;
+  margin-bottom: 14px;
+}
+
+.resume-template-8 .resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+  font-size: 13px;
+}
+
+.resume-template-8 .resume-table th {
+  background-color: #eff4fa;
+  color: #2d65a1;
+  text-align: left;
+  padding: 6px;
+}
+
+.resume-template-8 .resume-table td {
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}

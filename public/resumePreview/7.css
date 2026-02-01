@@ -1,0 +1,80 @@
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  background: #f7fcf9;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-template-7 {
+  width: 843px;
+  min-height: 1232.5px;
+  margin: auto;
+  padding: 50px;
+  background-color: white;
+  border: 1px solid #cce5d4;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  color: #104332;
+}
+
+/* 프로필 영역 */
+.resume-photo {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #63a69f;
+  float: right;
+  margin-left: 20px;
+}
+
+.resume-name {
+  font-size: 26px;
+  font-weight: 900;
+  color: #2a5a4c;
+  margin-bottom: 6px;
+}
+
+.resume-name-en {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.resume-section {
+  margin-top: 30px;
+}
+
+.resume-section-title {
+  font-size: 18px;
+  font-weight: bold;
+  border-left: 6px solid #63a69f;
+  padding-left: 10px;
+  margin-bottom: 12px;
+  color: #2f6f5b;
+}
+
+.resume-text-line {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.resume-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+.resume-table th {
+  background: #eaf4ef;
+  font-weight: 700;
+  font-size: 14px;
+  color: #2f6f5b;
+  padding: 6px;
+  text-align: left;
+}
+
+.resume-table td {
+  font-size: 13px;
+  padding: 6px;
+  border-bottom: 1px solid #e0eee8;
+}
